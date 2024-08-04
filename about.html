@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>E-Shop | About us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- nav section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2 px-3">
+        <a class="navbar-brand" href="#">
+            <h2>E-Shop</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Product-gallary
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="man.html">man</a>
+                        <a class="dropdown-item" href="women.html">Women</a>
+                        <a class="dropdown-item" href="kids.html">Kids</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contanct.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 w-50" type="search" placeholder="Search" aria-label="Search">
+                <button type="button" class="btn btn-outline-light mx-2" data-toggle="modal"
+                    data-target="#loginModalCenter">Sign
+                    Up</button>
+                <button type="button" class="btn btn-outline-light" data-toggle="modal"
+                    data-target="#signupModalCenter">Sign
+                    In</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- modals -->
+    <!-- login modal -->
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="loginModalCenter" tabindex="-1" role="dialog" aria-labelledby="loginModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLongTitle">Login to E-Shop</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- signin modal -->
+    <div class="modal fade" id="signupModalCenter" tabindex="-1" role="dialog" aria-labelledby="signupModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLongTitle">Create an Account</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control mb-2" id="exampleInputPassword1"
+                                placeholder="Password">
+                            <label for="exampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Confirm Password">
+                        </div>
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- About 1 -->
+    <section class="py-3 py-md-5">
+        <div class="container">
+            <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+                <div class="col-12 col-lg-6 col-xl-5">
+                    <img class="img-fluid rounded" loading="lazy"
+                        src="https://images.unsplash.com/photo-1585521747230-516376e5a85d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="About 1">
+                </div>
+                <div class="col-12 col-lg-6 col-xl-7">
+                    <div class="row justify-content-xl-center">
+                        <div class="col-12 col-xl-11">
+                            <h2 class="my-3">Who Are We?</h2>
+                            <p class="lead fs-4 text-secondary mb-3">We help people to build incredible brands and
+                                superior products. Our perspective is to furnish outstanding captivating services.</p>
+                            <p class="mb-5">We are a fast-growing company, but we have never lost sight of our core
+                                values. We believe in collaboration, innovation, and customer satisfaction. We are
+                                always looking for new ways to improve our products and services.</p>
+                            <div class="row gy-4 gy-md-0 gx-xxl-5X">
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-4 text-dark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                                fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h2 class="h4 mb-3">Versatile Brand</h2>
+                                            <p class="text-secondary mb-0">We are crafting a digital method that
+                                                subsists life across all mediums.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex">
+                                        <div class="me-4 text-dark">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                                fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h2 class="h4 mb-3">Digital Agency</h2>
+                                            <p class="text-secondary mb-0">We believe in innovation by merging dark
+                                                with elaborate ideas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About 2 -->
+    <section class="py-3 py-md-5 py-xl-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <h3 class="fs-5 mb-2 text-secondary text-uppercase">About</h3>
+                    <h2 class="display-5 mb-4">Our journey began with a dream of redefining how the world perceives
+                        design.</h2>
+                    <button type="button" class="btn btn-lg btn-dark mb-3 mb-md-4 mb-xl-5">Discover More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container overflow-hidden my-5">
+            <div class="row gy-4 gy-lg-0">
+                <div class="col-12 col-lg-6">
+                    <article>
+                        <div class="card border-0">
+                            <img class="card-img-top img-fluid m-0" loading="lazy"
+                                src="https://images.unsplash.com/photo-1520923626381-95ddff8c32c6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Our Vision">
+                            <div class="card-body border bg-white p-4">
+                                <div class="entry-header mb-3">
+                                    <h2 class="card-title entry-title h4 mb-0">
+                                        <a class="link-dark text-decoration-none text-dark" href="#!">Our Vision</a>
+                                    </h2>
+                                </div>
+                                <p class="card-text entry-summary text-secondary mb-3">From sleek modernism to timeless
+                                    elegance, we infuse every creation with a touch of our artistic ingenuity. As a
+                                    design agency, great design can shape perceptions, inspire action, and leave an
+                                    indelible mark on the world.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <article>
+                        <div class="card border-0">
+                            <img class="card-img-top img-fluid m-0" loading="lazy"
+                                src="https://images.unsplash.com/photo-1517401220137-9462c929bf9f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHJlYWRpbmd8ZW58MHx8MHx8fDA%3D"
+                                alt="Our Approach">
+                            <div class="card-body border bg-white p-4">
+                                <div class="entry-header mb-3">
+                                    <h2 class="card-title entry-title h4 mb-0">
+                                        <a class="link-dark text-decoration-none text-dark" href="#!">Our Approach</a>
+                                    </h2>
+                                </div>
+                                <p class="card-text entry-summary text-secondary mb-3">Welcome to our design agency,
+                                    where creativity knows no bounds and innovation takes center stage. We are a team of
+                                    dedicated designers, strategists, and visionaries with a passion for transforming
+                                    ideas into captivating visuals.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-body-tertiary text-center bg-light border border-secendory">
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+                    href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+                    href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+                    href="#!" role="button"><i class="fab fa-google"></i></a>
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+                    href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+                    href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                    href="#!" role="button"><i class="fab fa-github"></i></a>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-body" href="#">Tanisha Kahar</a>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
